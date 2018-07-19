@@ -5,18 +5,12 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   line-height: 1.8;
-  font-size: 20px;
+  font-size: 12px;
   background: #f0f0f0;
-  font-weight: 300;
+  font-weight: 20;
   letter-spacing: 1px;
   color: #333333; }
   body.menu-show {
@@ -47,7 +41,7 @@ a {
 
 p, span {
   margin-bottom: 1.5em;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Inconsolata", monospace; }
 
 span {
@@ -57,7 +51,7 @@ span {
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Inconsolata", monospace;
-  font-weight: 400;
+  font-weight: 100;
   margin: 0 0 30px 0; }
 
 ::-webkit-selection {
@@ -199,7 +193,7 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 35px;
       text-transform: uppercase;
-      color: #fff;
+      color: 0e27fb;
       font-weight: 200;
       letter-spacing: 5px; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
@@ -270,7 +264,7 @@ header {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
-          font-size: 24px;
+          font-size: 15px;
           color: #F7AF1D; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
@@ -278,13 +272,13 @@ header {
           color: white; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 50px;
-          font-size: 60px;
+          font-size: 24px;
           line-height: 1.3;
           font-weight: 400;
           color: rgba(255, 255, 255, 0.9); }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+              font-size: 20px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
@@ -1176,7 +1170,7 @@ input[type="text"] {
     #footer .subscribe .form-control:focus, #footer .subscribe .form-control:active {
       -webkit-box-shadow: none;
       box-shadow: none;
-      border: 2px solid rgba(14, 39, 251, 0.8); }
+      border: 1px solid rgba(14, 39, 251, 0.8); }
   #footer .subscribe .btn-custom {
     width: 100%;
     padding: 10px 0; }
@@ -1184,11 +1178,12 @@ input[type="text"] {
 .heading-section {
   margin-bottom: 3em; }
   .heading-section h2 {
-    font-size: 40px;
-    font-weight: 300; }
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 100; }
   .heading-section h3 {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 100;
     line-height: 1.5em; }
 
 .js .animate-box {
