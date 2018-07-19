@@ -1,3 +1,10 @@
+<!--@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }-->
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -193,7 +200,7 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 35px;
       text-transform: uppercase;
-      color: 0e27fb;
+      color: #ffffff;
       font-weight: 200;
       letter-spacing: 5px; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
@@ -294,7 +301,7 @@ header {
             color: #0e27fb;
             border-bottom: 1px solid rgba(14, 39, 251, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
-          font-size: 50px; }
+          font-size: 30px; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
@@ -330,7 +337,7 @@ header {
 .intro-heading {
   margin-bottom: 3em; }
   .intro-heading h2 {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 1.5em;
@@ -343,7 +350,8 @@ header {
       left: 0;
       right: 0;
       width: 80px;
-      height: 2px;
+      height: 5px;
+      height: 5px;
       content: '';
       background: #0e27fb;
       margin: 0 auto; }
@@ -352,7 +360,7 @@ header {
         font-size: 30px; } }
 
 .heading {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.5; }
   @media screen and (max-width: 768px) {
